@@ -1,0 +1,52 @@
+body{
+	background-image:url(https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=4154148228,3130235214&fm=27&gp=0.jpg);
+	border-style: solid solid solid solid;
+}
+
+#main a{
+	color: grey;
+	text-decoration: none;
+}
+#main a:hover{
+	color: pink;
+}
+
+ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+#list a:link,a:visited{
+	display:block;
+	font-weight:bold;
+	color:pink;
+	background-color:#bebebe;
+	width:120px;
+	text-align:center;
+	padding:4px;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+#list a:hover,a:active{
+	background-color:red;
+}
+li{
+	display:inline;
+}
+#list{
+	position:fixed;
+	right:580px;
+	top: 90px;
+	background-color:rsla(0,0,0,0);
+}
+
+*{
+	margin-left:auto;
+	margin-right:auto;
+	width:90%;
+}
+h2{
+	font-size:80px;
+	background-color:hsla(370,90%,70%,0.6);
+}
